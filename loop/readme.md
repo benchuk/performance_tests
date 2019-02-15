@@ -6,7 +6,7 @@ Create sum variable in memory - loop ++ to sum
 
 =========================================
 
-## c:
+## C:
 
 ### seem like loop unrolling does not work so we cannot use -o3 -o2 -o1 optimizations
 
