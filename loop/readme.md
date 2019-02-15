@@ -39,7 +39,7 @@ Create an array in memory - loop and set all array elements to 42.
     gcc -o3 loop2.c -o loop2
     ./loop2
 
-RESULTS:37 ms
+RESULTS: 37 ms
 
 ## java:
 
