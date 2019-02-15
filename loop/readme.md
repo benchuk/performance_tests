@@ -6,6 +6,12 @@ Create sum variable in memory - loop ++ to sum
 
 =========================================
 
+## Go
+
+    go run loop.go
+
+RESULT: 3.06354ms
+
 ## C:
 
 ### seem like loop unrolling does not work so we cannot use -o3 -o2 -o1 optimizations
@@ -37,6 +43,12 @@ RESULT: 1 ms
 Create an array in memory - loop and set all array elements to 42.
 
 ### measures only the loop potion
+
+## Go
+
+    go run loop2.go
+
+RESULT: 39.193223ms
 
 ## c:
 
