@@ -2,7 +2,7 @@
 
 This test load data from disk to mem with out doing nothing to the string while measuring
 
-### the end of the test does something with the string in some cases just to make sure no optimization are taking place
+### The end of the test does something with the string in some cases just to make sure no optimization are taking place
 
 ## C:
 
