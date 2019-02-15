@@ -1,6 +1,6 @@
 # Test 1:
 
-create sum variable in memory - loop ++ to sum
+Create sum variable in memory - loop ++ to sum
 measures only the loop potion
 =========================================
 
