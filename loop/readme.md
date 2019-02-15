@@ -15,6 +15,8 @@ Create sum variable in memory - loop ++ to sum
 
 RESULT: 20ms
 
+### (with loop unrolling optimizations the result will be less than a millisecond)
+
 ## node:
 
     node loop.js
