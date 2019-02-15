@@ -31,7 +31,8 @@ RESULT: 1 ms
 # Test 2:
 
 Create an array in memory - loop and set all array elements to 42.
-measures only the loop potion
+
+### measures only the loop potion
 
 ## c:
 
