@@ -17,7 +17,8 @@ static inline void stop()
     unsigned long long t = 1000 * (tm2.tv_sec - tm1.tv_sec) + (tm2.tv_usec - tm1.tv_usec) / 1000;
     printf("%llu ms\n", t);
 }
-
+#pragma GCC push_options
+#pragma GCC optimize("no-peel-loops")
 int main()
 {
 
@@ -30,16 +31,16 @@ int main()
     //     i++;
     //     sum++;
     // }
-#pragma GCC push_options
-#pragma GCC optimize("no-peel-loops")
+
     for (i = 0; i < MAX; i++)
     {
         sum++;
     }
-#pragma GCC pop_options
+
     stop();
     printf("%d ", sum);
     printf("loops %d", MAX);
     printf("done");
     return 0;
 }
+#pragma GCC pop_options
