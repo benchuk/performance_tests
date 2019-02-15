@@ -1,7 +1,9 @@
 # Test 1:
 
 Create sum variable in memory - loop ++ to sum
-measures only the loop potion
+
+### measures only the loop portion
+
 =========================================
 
 ## c:
