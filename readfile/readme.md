@@ -4,6 +4,13 @@ This test load data from disk to mem with out doing nothing to the string while 
 
 ### The end of the test does something with the string in some cases just to make sure no optimization are taking place
 
+## Go
+
+    go run readfile.go
+
+RESULTS: 21.303194ms
+(file len: 37747239)
+
 ## C:
 
     gcc -o3 readfile2.c -o readfile2
