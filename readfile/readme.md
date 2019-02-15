@@ -1,4 +1,4 @@
-# READ FILE TEST 1
+# Load file to memory test 1
 
 This test load data from disk to mem with out doing nothing to the string while measuring
 
