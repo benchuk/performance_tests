@@ -19,7 +19,9 @@ RESULT: 25ms
 RESULT: 41ms
 (file len: 37747239)
 
-## java: only reads the data to buffer if we init with string it is going to be slow - the test only checks loading data from disk to mem
+## java:
+
+### only reads the data to buffer if we init with string it is going to be slow - the test only checks loading data from disk to mem
 
     javac readfile.java
     java readfile
