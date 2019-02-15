@@ -27,6 +27,7 @@ RESULT: 10.215ms
     java loop
 
 RESULT: 1 ms
+(probably the jit make a loop unrolling optimization)
 
 # Test 2:
 
