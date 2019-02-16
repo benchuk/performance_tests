@@ -1,4 +1,4 @@
-# Performance simple adn server tests for c, java, javascript (node) and Go.
+# Simple client and server performance tests for c, java, javascript (node) and Go.
 ## Performance tests in several basic scenarios to estimate languages runtime performance
 
 ### http
