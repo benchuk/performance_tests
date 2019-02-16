@@ -66,6 +66,7 @@ RESULTS: 37 ms
 
 RESULTS: 7 ms
 (if JIT is disabled using java -Djava.compiler=NONE or java -Xint the result is: 88 ms)
+
 ##node:
 
     node loop2.js
