@@ -52,6 +52,7 @@ RESULT: 39.193223ms
 
 ## c:
 
+    (checked the binary with gcc -o loop2 -g -ggdb loop2.c see: loop2.c.asm)
     gcc -o3 loop2.c -o loop2
     ./loop2
 
@@ -59,6 +60,7 @@ RESULTS: 37 ms
 
 ## java:
 
+    (javap -c -p loop2.class)
     javac loop2.java
     java loop2
 
