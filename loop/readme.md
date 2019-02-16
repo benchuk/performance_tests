@@ -42,7 +42,7 @@ RESULT: 1 ms
 
 Create an array in memory - loop and set all array elements to 42.
 
-### measures only the loop potion
+### measures only the loop portion
 
 ## Go
 
