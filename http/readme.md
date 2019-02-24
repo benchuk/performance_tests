@@ -1,5 +1,20 @@
 # http simple text
 
+## nodejs: without express
+
+    ./bombardier -c 125 -n 5000000 http://localhost:8080
+
+Bombarding http://localhost:8080 with 5000000 request(s) using 125 connection(s)
+5000000 / 5000000 61748/s 1m20s
+Done!
+Statistics Avg Stdev Max
+Reqs/sec _61858.08_ 8105.66 78672.05
+Latency 2.02ms 8.02ms 260.96ms
+HTTP codes:
+1xx - 0, 2xx - 5000000, 3xx - 0, 4xx - 0, 5xx - 0
+others - 0
+Throughput: _14.28MB/s_
+
 ## nodejs:
 
     ./bombardier -c 125 -n 5000000 http://localhost:8080/plaintext
